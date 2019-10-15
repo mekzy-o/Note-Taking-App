@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id='heading'>Simple Note Taking App</h1>
+    <div class="container">
+      <div class="form-container">
+        <form id="save-note-form">
+          <div class="form-item">
+            <input
+              type="text"
+              id="note-text-input"
+              placeholder="Enter a note"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-item">
+            <select id="colors" required>
+              <option value="">Choose a color...</option>
+              <option value="blue">Blue</option>
+              <option value="yellow">Yellow</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+              <option value="orange">Orange</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+      <div class="notes-container"></div>
+    </div>
+    <script src="index.js" type='text/javascript'></script>
+  </body>
+</html>
