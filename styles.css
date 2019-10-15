@@ -61,7 +61,14 @@
   bottom: 2%;
   cursor: pointer;
 }
-
+.save-button {
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100px;
+}
 .blue {
   background-color: #0033ff;
   color: #fff;
